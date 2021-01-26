@@ -1,0 +1,149 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    height: 800px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.header {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px solid;
+    line-height: 1.5;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+
+.button {
+    margin: 50px 10px;
+}
+
+.container {
+    padding: 3% 7%;
+    font-size: 25px;
+}
+
+.image {
+    transform: rotate(25deg);
+    position: absolute;
+    padding-top: 25px;
+}
+
+#features {
+    background-color: #fff;
+    padding: 7% 15%;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.features-box {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+}
+
+p {
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(240, 146, 146);
+    font-size: 18px;
+}
+
+.icon {
+    color: rgb(240, 146, 146);
+    margin: 15px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+/*testimonial*/
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.testimonial-image {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 100px;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    padding: 100px;
+    color: #fff;
+}
+
+em {
+    color: #fff;
+}
+
+#press {
+    text-align: center;
+    background-color: #ff4c68;
+}
+
+.press-item {
+    margin: 20px;
+}
+
+.card {
+    padding: 0mm;
+}
+
+#pricing {
+    text-align: center;
+    margin: 20px;
+    padding: 10%;
+}
+
+.pricing-para {
+    line-height: 100px;
+}
+
+@media ( max-width:800px) {
+    #title {
+        text-align: center;
+    }
+    .image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+    margin: 15px 0px;
+}
+
+#footer {
+    text-align: center;
+    padding: 3%;
+    margin: 5px 0px;
+}
+
+.icon-f {
+    padding: 10px;
+}
